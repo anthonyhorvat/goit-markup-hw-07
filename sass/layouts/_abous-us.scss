@@ -2,11 +2,11 @@
   padding-top: 0px;
 }
 
-.about-us-item {
+.about-us__item {
   position: relative;
 }
 
-.about-us-text {
+.about-us__text {
   position: absolute;
   background-color: rgba(47, 48, 58, 0.8);
   font-weight: 700;
@@ -27,7 +27,7 @@
   justify-content: center;
 }
 
-.about-us-title {
+.about-us__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.31;
@@ -35,7 +35,7 @@
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.about-us-list {
+.about-us__list {
   display: flex;
   gap: 30px;
 }

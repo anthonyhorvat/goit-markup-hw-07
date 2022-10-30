@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-.soc-icons-item {
+.soc-icons__item {
   width: 44px;
   height: 44px;
   display: flex;
@@ -12,7 +12,7 @@
   justify-content: center;
 }
 
-.soc-icons-link {
+.soc-icons__link {
   fill: #afb1b8;
   display: flex;
   align-items: center;
@@ -24,27 +24,18 @@
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.soc-icons-link:hover,
-.soc-icons-link:focus {
+.soc-icons__link:hover,
+.soc-icons__link:focus {
   fill: var(--main-page-color);
 
   background-color: var(--second-page-color);
 }
 
-.footer-soc-icons {
-  display: flex;
-  gap: 10px;
-}
-.footer-icons-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
+.footer-icons__item {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-icons-link {
+.footer-icons__link {
   fill: var(--main-page-color);
 }

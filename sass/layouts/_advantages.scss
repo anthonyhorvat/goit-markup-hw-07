@@ -1,9 +1,9 @@
-.advantages-list {
+.advantages__list {
   display: flex;
   gap: 30px;
 }
 
-.advantages-box {
+.advantages__box {
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.advantages-title {
+.advantages__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -22,7 +22,7 @@
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.advantages-text {
+.advantages__text {
   line-height: 1.71;
   color: var(--main-text-color);
 }
