@@ -18,10 +18,18 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.filter__btn:first-child {
-  padding: 6px 25px;
+  &:first-child {
+    padding: 6px 25px;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: var(--second-page-color);
+    color: var(--main-page-color);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .filter__list {
@@ -29,12 +37,4 @@
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
-}
-
-.filter__btn:hover,
-.filter__btn:focus {
-  background-color: var(--second-page-color);
-  color: var(--main-page-color);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
